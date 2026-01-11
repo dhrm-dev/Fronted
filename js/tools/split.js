@@ -6,5 +6,5 @@ function splitPDF() {
     fd.append("file", file);
     fd.append("ranges", ranges);
 
-    uploadAndDownload("split-pdf/", fd, "split.zip");
+    uploadAndDownload("pdf/split/", fd, "split.zip");
 }
